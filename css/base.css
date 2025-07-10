@@ -27,7 +27,7 @@ body {
   width: 8px;
   height: 8px;
   right: -1px;
-  top: 3px;
+  top: 4px;
   z-index: -1;
   background-color: #c0fa73;
   border-radius: 50%;
@@ -121,8 +121,12 @@ a.breadcrumb-link.active {
   padding: 64px 0;
 }
 
-.footer .logo {
+.footer h2 {
   margin-right: auto;
+}
+
+.footer .logo a {
+  color: #212529;
 }
 
 .footer .copyright {

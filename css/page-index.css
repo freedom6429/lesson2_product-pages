@@ -41,8 +41,22 @@ main h2 {
   width: calc((100% - 48px) / 3);
 }
 
-.product-card a:hover img {
-  opacity: 0.8;
+.product-card .image-container {
+  width: 100%;
+  padding-bottom: 100%; /* 跟隨width */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+/* hover時使用的半透明遮罩 */
+.product-card .image-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0);
+  pointer-events: none;
 }
 
 .product-card a:link,
@@ -50,10 +64,11 @@ main h2 {
   color: #212529;
 }
 
-.product-card img {
-  width: 100%;
+.product-card a:hover .image-container::before {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
+/* pagination */
 .pagination .previous {
   margin-right: 12px;
 }
