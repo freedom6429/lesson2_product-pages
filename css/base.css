@@ -1,0 +1,134 @@
+/* base */
+body {
+  font-family: "Noto-Sans-TC", sans-serif;
+  color: #212529;
+}
+
+.nav {
+  padding: 17px 0;
+}
+
+.logo {
+  font-family: "Mina", sans-serif;
+  text-decoration: none;
+  color: #212529;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.044em;
+  line-height: 1.5;
+  position: relative;
+  z-index: 999;
+}
+
+.logo::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  right: -1px;
+  top: 3px;
+  z-index: -1;
+  background-color: #c0fa73;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.nav .logo {
+  margin-right: 60px;
+}
+
+.nav-links.d-flex {
+  gap: 40px;
+}
+
+.nav-link-item {
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+.nav-icon-link {
+  margin-left: auto;
+}
+
+.nav-icon-link svg {
+  width: 24px;
+  height: 24px;
+}
+
+.breadcrumb-link:link,
+.breadcrumb-link:visited {
+  color: #6c757d;
+}
+
+.breadcrumb-link:hover,
+.breadcrumb-link:active {
+  color: #212529;
+}
+
+a.breadcrumb-link.active {
+  color: #212529;
+}
+
+.link-item:link,
+.link-item:visited {
+  color: #212529;
+}
+
+.link-item:hover,
+.link-item:active {
+  color: #6c757d;
+}
+
+.dollar-sign {
+  font-family: "Roboto Mono", sans-serif;
+}
+
+.promotion h3 {
+  font-size: 24px;
+  background-color: #e8fec5;
+  text-align: center;
+  padding: 33.5px 0;
+}
+
+.promotion a {
+  font-size: 16px;
+  display: inline-block;
+  margin-left: 24px;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.promotion a:link,
+.promotion a:visited {
+  background-color: #212529;
+}
+
+.promotion a:hover {
+  background-color: #495057;
+}
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 64px 0;
+}
+
+.footer .logo {
+  margin-right: auto;
+}
+
+.footer .copyright {
+  font-size: 14px;
+  color: #6c757d;
+  text-align: center;
+  padding-top: 32px;
+  border-top: 1px solid #dee2e6;
+}

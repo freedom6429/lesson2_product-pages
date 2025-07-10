@@ -1,0 +1,83 @@
+/* page: all-product */
+.breadcrumb span {
+  display: inline-block;
+  margin: 0 12px;
+  color: #dee2e6;
+}
+
+main {
+  padding: 32px 0;
+  /* padding: 0; platform-404 */
+}
+
+main h2 {
+  font-size: 32px;
+}
+
+/* products */
+.side-menu {
+  flex: 1 0 196px;
+}
+
+.side-menu li {
+  padding: 8px 0;
+}
+
+.side-menu a:visited {
+  color: #212529;
+}
+
+.side-menu a.active,
+.side-menu a:hover {
+  color: #57a203;
+}
+
+.product-list .product-cards {
+  gap: 24px;
+}
+
+.product-card {
+  width: calc((100% - 48px) / 3);
+}
+
+.product-card a:hover img {
+  opacity: 0.8;
+}
+
+.product-card a:link,
+.product-card a:visited {
+  color: #212529;
+}
+
+.product-card img {
+  width: 100%;
+}
+
+.pagination .previous {
+  margin-right: 12px;
+}
+
+.pagination .next {
+  margin-left: 12px;
+}
+
+.pagination button {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.pagination button svg {
+  width: 20px;
+  height: 20px;
+}
+
+button.active {
+  background-color: #c0fa73;
+}
+
+button.active:hover {
+  color: #212529;
+}
