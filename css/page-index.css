@@ -23,6 +23,7 @@ main h2 {
   padding: 8px 0;
 }
 
+.side-menu a:link,
 .side-menu a:visited {
   color: #212529;
 }
